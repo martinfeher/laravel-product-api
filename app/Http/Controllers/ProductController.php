@@ -22,7 +22,7 @@ class ProductController extends Controller
 
         $products = Product::all();
 
-        // if the first_name request get parameter exists, filter the customer collection by the first_name
+        // if the product_number request get parameter exists, filter the customer collection by the product_number
         if ($request->has('product_number')) {
             $products = $products->where('product_number', $request->product_number);
         }

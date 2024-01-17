@@ -26,9 +26,7 @@ class GetProductRequest extends FormRequest
     public function rules()
     {
         return [
-            // 'product_number' => 'numeric',
-            // 'price_from' => 'numeric',
-            // 'price_to' => 'numeric',
+            //
         ];
     }
 
